@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="https://static.nrk.no/core-icons/major/8/core-icons.min.js"></script>
+</head>
+
+<body>
+  <script type="module" src="./browser-test.js"></script>
+  <h1>Fake ATV Player</h1>
+  <div style="display: flex">
+    <button onclick="document.dispatchEvent(new CustomEvent('rwd'))">
+      <svg style="width:1.5em;height:1.5em" focusable="false" aria-hidden="true">
+        <use xlink:href="#nrk-media-rwd-30sec"></use>
+      </svg>
+    </button>
+    <button onclick="document.dispatchEvent(new CustomEvent('play-pause'))">
+      <svg style="width:1.5em;height:1.5em" focusable="false" aria-hidden="true">
+        <use xlink:href="#nrk-media-pause"></use>
+      </svg>
+      <svg style="width:1.5em;height:1.5em" focusable="false" aria-hidden="true">
+        <use xlink:href="#nrk-media-play"></use>
+      </svg>
+    </button>
+    <button onclick="document.dispatchEvent(new CustomEvent('fwd'))">
+      <svg style="width:1.5em;height:1.5em" focusable="false" aria-hidden="true">
+        <use xlink:href="#nrk-media-ffw-30sec"></use>
+      </svg>
+    </button>
+  </div>
+</body>
+
+</html>

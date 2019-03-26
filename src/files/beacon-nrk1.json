@@ -1,0 +1,834 @@
+{
+  "AkamaiPlayerAnalyticsConfig": {
+    "_debug": "0",
+    "_exception": "0",
+    "_logWindow": "0",
+    "beaconId": "d3629ac7e39f69485",
+    "beaconVersion": "1.1",
+    "isActive": "1",
+    "logTo": {
+      "_logInterval": "300",
+      "_logType": "relative",
+      "_maxLogLineLength": "2048",
+      "_secondaryLogTime": "5",
+      "host": "https://ma93-r.analytics.edgekey.net",
+      "path": "/9.gif",
+      "logVersion": "1.2",
+      "formatVersion": "1.1"
+    },
+    "security": "",
+    "bucketInfo": {
+      "bucketCount": "20",
+      "bucketLength": "900"
+    },
+    "statistics": {
+      "split": {
+        "dataMetrics": {
+          "data": [{
+              "_key": "za",
+              "_name": "partNumber"
+            },
+            {
+              "_key": "zb",
+              "_name": "totalParts"
+            }
+          ]
+        }
+      },
+      "error": {
+        "dataMetrics": {
+          "data": [{
+              "_key": "m",
+              "_name": "playerState"
+            },
+            {
+              "_key": "v",
+              "_name": "currentStreamTime"
+            },
+            {
+              "_key": "aa",
+              "_name": "hostName"
+            },
+            {
+              "_key": "ap",
+              "_name": "startupTime"
+            },
+            {
+              "_key": "aq",
+              "_name": "streamLength"
+            },
+            {
+              "_key": "ar",
+              "_name": "bytesTotal"
+            },
+            {
+              "_key": "av",
+              "_name": "videoSize"
+            },
+            {
+              "_key": "ba",
+              "_name": "bucketLength"
+            },
+            {
+              "_key": "ca",
+              "_name": "errorCode"
+            },
+            {
+              "_key": "cl",
+              "_name": "contentLength"
+            },
+            {
+              "_key": "ea",
+              "_name": "bucketCount"
+            },
+            {
+              "_key": "gb",
+              "_name": "adSession"
+            },
+            {
+              "_key": "sc",
+              "_name": "subCategory"
+            },
+            {
+              "_key": "ta",
+              "_name": "totalRebufferTime"
+            },
+            {
+              "_key": "tb",
+              "_name": "maxPersistentBitRate"
+            },
+            {
+              "_key": "td",
+              "_name": "totalAdPlayClockTime"
+            },
+            {
+              "_key": "te",
+              "_name": "totalAdStartCount"
+            },
+            {
+              "_key": "tf",
+              "_name": "totalAdAbandonCount"
+            },
+            {
+              "_key": "tx",
+              "_name": "totalPlayClockTime"
+            },
+            {
+              "_key": "ty",
+              "_name": "totalPlayStreamTime"
+            },
+            {
+              "_key": "tz",
+              "_name": "totalRebufferCount"
+            },
+            {
+              "_key": "va",
+              "_name": "isVisitStart",
+              "_sendOnce": "1"
+            },
+            {
+              "_key": "_cd_4636",
+              "_name": "cdnName"
+            },
+            {
+              "_key": "_cd_4637",
+              "_name": "playerInfo"
+            }
+          ]
+        },
+        "_eventCode": "E"
+      },
+      "feedback": {
+        "dataMetrics": {
+          "data": [{
+              "_key": "sc",
+              "_name": "subCategory"
+            },
+            {
+              "_key": "so",
+              "_name": "socialSharing"
+            }
+          ]
+        },
+        "_eventCode": "F"
+      },
+      "visit": {
+        "dataMetrics": {
+          "data": [{
+              "_key": "vb",
+              "_name": "isVisitEnd"
+            },
+            {
+              "_key": "vd",
+              "_name": "visitPlays"
+            },
+            {
+              "_key": "ve",
+              "_name": "visitViews"
+            },
+            {
+              "_key": "vh",
+              "_name": "visitPlayClockTime"
+            },
+            {
+              "_key": "vj",
+              "_name": "visitRebufferCount"
+            },
+            {
+              "_key": "vk",
+              "_name": "visitRebufferTime"
+            },
+            {
+              "_key": "vl",
+              "_name": "visitMaxPersistentBitRateBucket"
+            },
+            {
+              "_key": "vm",
+              "_name": "visitStartupErrors"
+            },
+            {
+              "_key": "vo",
+              "_name": "visitAdPlayClockTime"
+            },
+            {
+              "_key": "vp",
+              "_name": "visitAdStartCount"
+            },
+            {
+              "_key": "vq",
+              "_name": "visitAdAbandonCount"
+            },
+            {
+              "_key": "_cd_4636",
+              "_name": "cdnName"
+            },
+            {
+              "_key": "_cd_4637",
+              "_name": "playerInfo"
+            }
+          ]
+        },
+        "_eventCode": "V"
+      },
+      "playing": {
+        "dataMetrics": {
+          "data": [{
+              "_key": "m",
+              "_name": "playerState"
+            },
+            {
+              "_key": "n",
+              "_name": "playBackBitRate"
+            },
+            {
+              "_key": "u",
+              "_name": "droppedFrames"
+            },
+            {
+              "_key": "v",
+              "_name": "currentStreamTime"
+            },
+            {
+              "_key": "x",
+              "_name": "playClockTime"
+            },
+            {
+              "_key": "y",
+              "_name": "playStreamTime"
+            },
+            {
+              "_key": "z",
+              "_name": "rebufferCount"
+            },
+            {
+              "_key": "aa",
+              "_name": "hostName"
+            },
+            {
+              "_key": "ap",
+              "_name": "startupTime"
+            },
+            {
+              "_key": "aq",
+              "_name": "streamLength"
+            },
+            {
+              "_key": "ba",
+              "_name": "bucketLength"
+            },
+            {
+              "_key": "cl",
+              "_name": "contentLength"
+            },
+            {
+              "_key": "da",
+              "_name": "rebufferTime"
+            },
+            {
+              "_key": "db",
+              "_name": "averageFPS"
+            },
+            {
+              "_key": "dc",
+              "_name": "bytesLoaded"
+            },
+            {
+              "_key": "dd",
+              "_name": "pauseCount"
+            },
+            {
+              "_key": "de",
+              "_name": "pauseDuration"
+            },
+            {
+              "_key": "dg",
+              "_name": "seekCount"
+            },
+            {
+              "_key": "dh",
+              "_name": "seekTime"
+            },
+            {
+              "_key": "dj",
+              "_name": "pauseSeekSession"
+            },
+            {
+              "_key": "dn",
+              "_name": "totalBandwidth"
+            },
+            {
+              "_key": "du",
+              "_name": "bufferTime"
+            },
+            {
+              "_key": "dv",
+              "_name": "isView",
+              "_sendOnce": "1"
+            },
+            {
+              "_key": "dw",
+              "_name": "isSessionWithRebuffer",
+              "_sendOnce": "1"
+            },
+            {
+              "_key": "dy",
+              "_name": "liveDelay"
+            },
+            {
+              "_key": "dz",
+              "_name": "rtt"
+            },
+            {
+              "_key": "ea",
+              "_name": "bucketCount"
+            },
+            {
+              "_key": "fb",
+              "_name": "transitionCount"
+            },
+            {
+              "_key": "fd",
+              "_name": "transitionUpSwitchCount"
+            },
+            {
+              "_key": "fe",
+              "_name": "transitionDownSwitchCount"
+            },
+            {
+              "_key": "ff",
+              "_name": "transitionTime"
+            },
+            {
+              "_key": "fi",
+              "_name": "transitionStreamTimeSession"
+            },
+            {
+              "matchRules": {
+                "match": [{
+                    "_key": "S",
+                    "_type": "range",
+                    "_value": "max:1500"
+                  },
+                  {
+                    "_key": "Q",
+                    "_type": "range",
+                    "_value": "min:1500;max:2500"
+                  },
+                  {
+                    "_key": "D",
+                    "_type": "range",
+                    "_value": "min:2500"
+                  }
+                ]
+              },
+              "_key": "fk",
+              "_name": "bitRateBucketTimes"
+            },
+            {
+              "_key": "fl",
+              "_name": "averagedBitRate"
+            },
+            {
+              "_key": "gb",
+              "_name": "adSession"
+            },
+            {
+              "_key": "rs",
+              "_name": "rebufferSession"
+            },
+            {
+              "_key": "sc",
+              "_name": "subCategory"
+            },
+            {
+              "_key": "so",
+              "_name": "socialSharing"
+            },
+            {
+              "_key": "_cd_4636",
+              "_name": "cdnName"
+            },
+            {
+              "_key": "_cd_4637",
+              "_name": "playerInfo"
+            }
+          ]
+        },
+        "_eventCode": "P"
+      },
+      "common": {
+        "dataMetrics": {
+          "data": [{
+              "_key": "a",
+              "_name": "eventCode"
+            },
+            {
+              "_key": "b",
+              "_name": "beaconId"
+            },
+            {
+              "_key": "c",
+              "_name": "attemptId"
+            },
+            {
+              "_key": "d",
+              "_name": "viewerId"
+            },
+            {
+              "_key": "e",
+              "_name": "sequenceId"
+            },
+            {
+              "_key": "g",
+              "_name": "endOfStream"
+            },
+            {
+              "_key": "w",
+              "_name": "currentClockTime"
+            },
+            {
+              "_key": "ac",
+              "_name": "streamName"
+            },
+            {
+              "_key": "ag",
+              "_name": "pageHost"
+            },
+            {
+              "_key": "ah",
+              "_name": "pageReferrerHost"
+            },
+            {
+              "_key": "ak",
+              "_name": "playerType"
+            },
+            {
+              "_key": "al",
+              "_name": "os"
+            },
+            {
+              "_key": "am",
+              "_name": "format"
+            },
+            {
+              "_key": "at",
+              "_name": "browser"
+            },
+            {
+              "_key": "aw",
+              "_name": "streamUrl"
+            },
+            {
+              "_key": "ax",
+              "_name": "deliveryType"
+            },
+            {
+              "_key": "ay",
+              "_name": "pluginVersion"
+            },
+            {
+              "_key": "bb",
+              "_name": "serverIp"
+            },
+            {
+              "_key": "cg",
+              "_name": "category"
+            },
+            {
+              "matchRules": {
+                "match": [{
+                    "_key": "Akamai",
+                    "_name": "hostName",
+                    "_type": "pattern",
+                    "_value": ".akamaihd.net,.akamai.net,.akastream.net,.edgefcs.net,.edgesuite.net,.akamaized.net"
+                  },
+                  {
+                    "_key": "NrkMini-Cdn",
+                    "_name": "hostName",
+                    "_type": "pattern",
+                    "_value": "minicdn-live.nrk.no,minicdn-od.nrk.no"
+                  },
+                  {
+                    "_key": "Qbrick-Cdn",
+                    "_name": "hostName",
+                    "_type": "pattern",
+                    "_value": ".qbrick.com,.dna.qbrick.com"
+                  },
+                  {
+                    "_key": "NrkEdge-Cdn",
+                    "_name": "hostName",
+                    "_type": "pattern",
+                    "_value": "nrkedge-od.nrk.no,nrkedge-live.nrk.no"
+                  }
+                ]
+              },
+              "_key": "cm",
+              "_name": "cdn"
+            },
+            {
+              "_key": "cn",
+              "_name": "connectivity"
+            },
+            {
+              "_key": "dx",
+              "_name": "logInterval"
+            },
+            {
+              "_key": "en",
+              "_name": "eventName"
+            },
+            {
+              "_key": "es",
+              "_name": "eventStartTime"
+            },
+            {
+              "_key": "et",
+              "_name": "eventEndTime"
+            },
+            {
+              "_key": "os",
+              "_name": "fullOs"
+            },
+            {
+              "_key": "pd",
+              "_name": "playerId"
+            },
+            {
+              "_key": "sa",
+              "_name": "device"
+            },
+            {
+              "_key": "sd",
+              "_name": "scriptDisabled"
+            },
+            {
+              "_key": "sg",
+              "_name": "sessionGUID"
+            },
+            {
+              "_key": "sh",
+              "_name": "show"
+            },
+            {
+              "_key": "sp",
+              "_name": "mobileOperator"
+            },
+            {
+              "_key": "tt",
+              "_name": "title"
+            },
+            {
+              "_key": "cid",
+              "_name": "cellID"
+            },
+            {
+              "_key": "cpc",
+              "_name": "cpcode"
+            },
+            {
+              "_key": "ltd",
+              "_name": "latitude"
+            },
+            {
+              "_key": "ltg",
+              "_name": "longitude"
+            },
+            {
+              "_key": "sgs",
+              "_name": "signalStrength"
+            },
+            {
+              "_key": "sid",
+              "_name": "streamid"
+            }
+          ]
+        }
+      },
+      "playStart": {
+        "dataMetrics": {
+          "data": [{
+              "_key": "m",
+              "_name": "playerState"
+            },
+            {
+              "_key": "v",
+              "_name": "currentStreamTime"
+            },
+            {
+              "_key": "aa",
+              "_name": "hostName"
+            },
+            {
+              "_key": "an",
+              "_name": "connectTime"
+            },
+            {
+              "_key": "ao",
+              "_name": "bufferingTime"
+            },
+            {
+              "_key": "ap",
+              "_name": "startupTime"
+            },
+            {
+              "_key": "aq",
+              "_name": "streamLength"
+            },
+            {
+              "_key": "ar",
+              "_name": "bytesTotal"
+            },
+            {
+              "_key": "as",
+              "_name": "encodedFPS"
+            },
+            {
+              "_key": "av",
+              "_name": "videoSize"
+            },
+            {
+              "_key": "ba",
+              "_name": "bucketLength"
+            },
+            {
+              "_key": "cl",
+              "_name": "contentLength"
+            },
+            {
+              "_key": "ea",
+              "_name": "bucketCount"
+            },
+            {
+              "_key": "ft",
+              "_name": "isFirstTitle"
+            },
+            {
+              "_key": "gb",
+              "_name": "adSession"
+            },
+            {
+              "_key": "sc",
+              "_name": "subCategory"
+            },
+            {
+              "_key": "va",
+              "_name": "isVisitStart",
+              "_sendOnce": "1"
+            },
+            {
+              "_key": "_cd_4636",
+              "_name": "cdnName"
+            },
+            {
+              "_key": "_cd_4637",
+              "_name": "playerInfo"
+            }
+          ]
+        },
+        "_eventCode": "S"
+      },
+      "complete": {
+        "dataMetrics": {
+          "data": [{
+              "_key": "m",
+              "_name": "playerState"
+            },
+            {
+              "_key": "v",
+              "_name": "currentStreamTime"
+            },
+            {
+              "_key": "aa",
+              "_name": "hostName"
+            },
+            {
+              "_key": "ap",
+              "_name": "startupTime"
+            },
+            {
+              "_key": "aq",
+              "_name": "streamLength"
+            },
+            {
+              "_key": "ar",
+              "_name": "bytesTotal"
+            },
+            {
+              "_key": "as",
+              "_name": "encodedFPS"
+            },
+            {
+              "_key": "av",
+              "_name": "videoSize"
+            },
+            {
+              "_key": "ba",
+              "_name": "bucketLength"
+            },
+            {
+              "_key": "cl",
+              "_name": "contentLength"
+            },
+            {
+              "_key": "ea",
+              "_name": "bucketCount"
+            },
+            {
+              "_key": "gb",
+              "_name": "adSession"
+            },
+            {
+              "_key": "rh",
+              "_name": "rebufferSessionH"
+            },
+            {
+              "_key": "sc",
+              "_name": "subCategory"
+            },
+            {
+              "_key": "ta",
+              "_name": "totalRebufferTime"
+            },
+            {
+              "_key": "tb",
+              "_name": "maxPersistentBitRate"
+            },
+            {
+              "_key": "td",
+              "_name": "totalAdPlayClockTime"
+            },
+            {
+              "_key": "te",
+              "_name": "totalAdStartCount"
+            },
+            {
+              "_key": "tf",
+              "_name": "totalAdAbandonCount"
+            },
+            {
+              "_key": "tx",
+              "_name": "totalPlayClockTime"
+            },
+            {
+              "_key": "ty",
+              "_name": "totalPlayStreamTime"
+            },
+            {
+              "_key": "tz",
+              "_name": "totalRebufferCount"
+            },
+            {
+              "_key": "va",
+              "_name": "isVisitStart",
+              "_sendOnce": "1"
+            },
+            {
+              "_key": "xa",
+              "_name": "endReasonCode"
+            },
+            {
+              "_key": "hdw",
+              "_name": "isSessionWithRebufferH"
+            },
+            {
+              "_key": "hdx",
+              "_name": "lastHTime"
+            },
+            {
+              "_key": "_cd_4636",
+              "_name": "cdnName"
+            },
+            {
+              "_key": "_cd_4637",
+              "_name": "playerInfo"
+            }
+          ]
+        },
+        "_eventCode": "C"
+      },
+      "init": {
+        "dataMetrics": {
+          "data": [{
+              "_key": "af",
+              "_name": "playerReferrer"
+            },
+            {
+              "_key": "ai",
+              "_name": "userAgent"
+            },
+            {
+              "_key": "aj",
+              "_name": "playerVersion"
+            },
+            {
+              "_key": "au",
+              "_name": "browserSize"
+            },
+            {
+              "_key": "az",
+              "_name": "beaconVersion"
+            },
+            {
+              "_key": "pr",
+              "_name": "pageReferrer"
+            },
+            {
+              "_key": "pu",
+              "_name": "pageUrl"
+            },
+            {
+              "_key": "_cd_4636",
+              "_name": "cdnName"
+            },
+            {
+              "_key": "_cd_4637",
+              "_name": "playerInfo"
+            }
+          ]
+        },
+        "_eventCode": "I"
+      },
+      "_useKey": "1"
+    }
+  }
+}
